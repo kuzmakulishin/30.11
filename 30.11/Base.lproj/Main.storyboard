@@ -31,6 +31,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Show text"/>
+                                <connections>
+                                    <action selector="makeButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="REA-hf-5VI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -42,10 +45,14 @@
                             <constraint firstItem="zjl-s5-SKz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ejD-rt-SRB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="halloWorldLabel" destination="zjl-s5-SKz" id="dgT-1z-E43"/>
+                        <outlet property="toggleButton" destination="218-da-Z2g" id="uB8-5d-Hx6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="108.48214285714285"/>
+            <point key="canvasLocation" x="-12" y="97"/>
         </scene>
     </scenes>
     <resources>
